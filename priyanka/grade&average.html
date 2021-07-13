@@ -1,0 +1,26 @@
+<script>
+eng=parseInt(prompt("Enter the marks of english"))
+math=parseInt(prompt("Enter the marks of math"))
+sci=parseInt(prompt("Enter the marks of science"))
+total=eng+math+sci
+avg=total/3
+document.write("The Total marks of Student"+total+"<br>")
+document.write("The Average marks of Student"+avg+"<br>")
+if(avg>=90)
+{
+document.write("A grade")
+}
+else if(avg>=80)
+{document.write("B grade")
+}
+else if(avg>=70)
+{document.write("C grade")
+}
+else if(avg>=60)
+{document.write("D grade")
+}
+else
+{
+document.write("E grade")
+}
+</script>
